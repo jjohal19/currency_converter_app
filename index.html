@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Currency converter</title>
+</head>
+<body>
+	<h1>Currency converter</h1>
+	<h2>Please Use</h2>
+
+	<div>
+		<span>First Country Code</span>
+		<input type="text" id="counter_code_one" placeholder="First country">
+	</div>
+
+	<div>
+		<span>Second Country Code</span>
+		<input type="text" id="counter_code_two" placeholder="Second country">
+	</div>
+
+	<div>
+		<span>Amount</span>
+		<input type="text" id="value" placeholder="Enter amount">
+	</div>
+
+	<span onclick="convert();" class="button">Convert</span>
+
+	<span class="result"></span>
+	<script src="app.js"></script>
+</body>
+</html>
